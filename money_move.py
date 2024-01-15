@@ -67,5 +67,14 @@ def get_all_stocks():
             "little_money_out":item.get("f84")
         }
     print(json.dumps(all_stocks,indent=4,ensure_ascii=False))
+
+def masure_fund():
+    """
+    以基金公司为单位 分析平均评级
+    收集每个 基金的分红，经理变更，规模，风格
+    进行加权评分
+    :return:
+    """
+    pass
 if __name__ == '__main__':
-    get_all_stocks()
+    pass
